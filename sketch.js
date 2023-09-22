@@ -1,6 +1,5 @@
 let canvas;
 let centerX, centerY;
-let staatLichesFont;
 let img;
 
 function windowResized(){
@@ -8,7 +7,6 @@ function windowResized(){
 }
 
 function preload() {
-  staatLichesFont = loadFont('Staatliches-Regular.ttf');
   img = loadImage('softGradient-pastelPink.jpg');
 }
 
