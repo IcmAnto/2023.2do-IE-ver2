@@ -4,6 +4,20 @@ html, body {
   font-family: 'DotGothic16';
 
 }
+
+.titles{
+position:absolute;
+top: center;
+right: windowWidth/2;
+}
+
+.homeworks {
+background-color: rgba(255, 252, 232, 0.359);
+position: absolute;
+bottom: 0;
+right: 0;
+}
+
 canvas {
   display: block;
 }
