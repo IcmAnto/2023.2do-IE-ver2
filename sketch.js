@@ -15,6 +15,9 @@ function preload() {
 function setup() {
   canvas= createCanvas(windowWidth, windowHeight, WEBGL);
   background(99, 111, 175);
+
+  canvas.position (0,0);
+  canvas.style('z-index','-1');
   
   centerX = windowWidth / 2;
   centerY = windowHeight / 2;
