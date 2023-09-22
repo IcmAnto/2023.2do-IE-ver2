@@ -21,6 +21,8 @@ function setup() {
   
   centerX = windowWidth / 2;
   centerY = windowHeight / 2;
+
+  html
     
 }
 
