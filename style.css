@@ -12,24 +12,20 @@ top: center;
 right: windowWidth/2;
 }
 
-.tareas-imagenEscrita {
+.menu {
+  height: auto;
+  width: 25%;
 
-background-color: rgba(255, 252, 232, 0.359);
-position: absolute;
-top: 85%;
-left: 40%;
+  background-color: rgba(255, 255, 255, 0.303);
 
-display: grid;
-grid-template-columns: 1fr;
-grid-template-columns: auto;
-gap: 2em;
-height: 20px;
-width: 200px;
+  margin:10px;
+  padding: 10px;
 
-}
+  position: absolute;
+  right: 5%;
+  top: 25%;
+  text-align: left;
 
-.ejerciciosIndependientes {
-  
 }
 
 canvas {
