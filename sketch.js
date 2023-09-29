@@ -31,6 +31,7 @@ function draw() {
   
   texture(img);
   sphere(215);
+  
 
 
 }
