@@ -4,7 +4,6 @@ html, body {
   font-family: 'DotGothic16';
 
   text-align: center;
-
 }
 
 .titles{
@@ -13,17 +12,24 @@ top: center;
 right: windowWidth/2;
 }
 
-.homeworks {
+.tareas-imagenEscrita {
+
 background-color: rgba(255, 252, 232, 0.359);
 position: absolute;
-bottom: center;
-left: center;
+top: 85%;
+left: 40%;
 
 display: grid;
-grid-template-rows: 1fr 1fr 1fr 1fr;
+grid-template-columns: 1fr;
+grid-template-columns: auto;
 gap: 2em;
+height: 20px;
+width: 200px;
 
+}
 
+.ejerciciosIndependientes {
+  
 }
 
 canvas {
