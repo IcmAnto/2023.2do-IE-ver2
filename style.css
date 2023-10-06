@@ -9,9 +9,12 @@ html, body {
 .tittles {
 position:absolute;
 top: 40%;
-right: 36%;
+right: 30%;
 
-font-family: ;
+font-family: 'Major Mono Display';
+
+text-shadow:   1px 1px 0px rgba(187, 0, 255, 0.5);
+;
 }
 
 .menu {
