@@ -23,7 +23,7 @@ function moveStraight(element, speed) {
 let circles = []; // An array to store the instances of CircleElement
 
 function setup() {
-  createCanvas(windowHeight, windowWidth);
+  createCanvas(windowWidth, windowHeight);
 
   // Create 100 instances of CircleElement and store them in the 'circles' array
   for (let i = 0; i < 100; i++) {
